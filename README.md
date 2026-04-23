@@ -14,6 +14,45 @@ MindBloom focuses on one Soroban contract and a polished React frontend:
 - Public contract activity feed powered by Soroban RPC `getEvents`
 - Responsive interface optimized for desktop and mobile
 
+## Screenshots And Demo Assets
+
+### MVP Video
+
+- MVP demo: `https://drive.google.com/file/d/1fHp0BwfGhXBF8nMLWB0VrEmtB0oPgqnm/view?usp=sharing`
+
+### UI Screens
+
+Main dashboard:
+
+![MindBloom Main UI](./UI.png)
+
+Alternate dashboard capture:
+
+![MindBloom UI Screenshot](./UI%20SS.png)
+
+Responsive mobile view:
+
+![MindBloom Mobile UI](./mobile.png)
+
+Alternate mobile capture:
+
+![MindBloom Mobile Screenshot](./mobile%20SS.png)
+
+Test and verification capture:
+
+![MindBloom Test Screenshot](./test.png)
+
+### CI/CD Screens
+
+Workflow overview:
+
+![MindBloom CI CD](./ci%20cd.png)
+
+Additional CI/CD capture:
+
+![MindBloom CI CD Screenshot](./ci%20cd%20ss.png)
+
+
 ## Architecture
 
 ### Soroban Contract
@@ -177,43 +216,6 @@ Current live deployment:
 6. Inspect the transaction link shown in the status banner.
 7. Confirm tests, linting, and build checks pass.
 
-## Screenshots And Demo Assets
-
-### MVP Video
-
-- MVP demo: `https://drive.google.com/file/d/1fHp0BwfGhXBF8nMLWB0VrEmtB0oPgqnm/view?usp=sharing`
-
-### UI Screens
-
-Main dashboard:
-
-![MindBloom Main UI](./UI.png)
-
-Alternate dashboard capture:
-
-![MindBloom UI Screenshot](./UI%20SS.png)
-
-Responsive mobile view:
-
-![MindBloom Mobile UI](./mobile.png)
-
-Alternate mobile capture:
-
-![MindBloom Mobile Screenshot](./mobile%20SS.png)
-
-Test and verification capture:
-
-![MindBloom Test Screenshot](./test.png)
-
-### CI/CD Screens
-
-Workflow overview:
-
-![MindBloom CI CD](./ci%20cd.png)
-
-Additional CI/CD capture:
-
-![MindBloom CI CD Screenshot](./ci%20cd%20ss.png)
 
 
 ## Project Structure
