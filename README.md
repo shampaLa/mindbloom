@@ -179,7 +179,42 @@ Current live deployment:
 
 ## Screenshots And Demo Assets
 
-Existing screenshot and video assets in the repository should still be refreshed so the documentation matches the current wellness identity and the live MindBloom deployment.
+### MVP Video
+
+- MVP demo: `https://drive.google.com/file/d/1fHp0BwfGhXBF8nMLWB0VrEmtB0oPgqnm/view?usp=sharing`
+
+### UI Screens
+
+Main dashboard:
+
+![MindBloom Main UI](./UI.png)
+
+Alternate dashboard capture:
+
+![MindBloom UI Screenshot](./UI%20SS.png)
+
+Responsive mobile view:
+
+![MindBloom Mobile UI](./mobile.png)
+
+Alternate mobile capture:
+
+![MindBloom Mobile Screenshot](./mobile%20SS.png)
+
+Test and verification capture:
+
+![MindBloom Test Screenshot](./test.png)
+
+### CI/CD Screens
+
+Workflow overview:
+
+![MindBloom CI CD](./ci%20cd.png)
+
+Additional CI/CD capture:
+
+![MindBloom CI CD Screenshot](./ci%20cd%20ss.png)
+
 
 ## Project Structure
 
