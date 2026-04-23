@@ -24,31 +24,16 @@ MindBloom focuses on one Soroban contract and a polished React frontend:
 
 Main dashboard:
 
-![MindBloom Main UI](./UI.png)
-
-Alternate dashboard capture:
-
 ![MindBloom UI Screenshot](./UI%20SS.png)
 
 Responsive mobile view:
 
-![MindBloom Mobile UI](./mobile.png)
-
-Alternate mobile capture:
-
 ![MindBloom Mobile Screenshot](./mobile%20SS.png)
 
-Test and verification capture:
-
-![MindBloom Test Screenshot](./test.png)
 
 ### CI/CD Screens
 
 Workflow overview:
-
-![MindBloom CI CD](./ci%20cd.png)
-
-Additional CI/CD capture:
 
 ![MindBloom CI CD Screenshot](./ci%20cd%20ss.png)
 
