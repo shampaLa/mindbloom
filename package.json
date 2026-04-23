@@ -1,0 +1,24 @@
+{
+  "name": "mindbloom",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "frontend"
+  ],
+  "scripts": {
+    "dev": "npm --workspace frontend run dev",
+    "test": "npm run contract:test",
+    "contract:test": "cargo test",
+    "contract:wasm": "cargo build --locked --target wasm32v1-none --release -p mind_bloom",
+    "contract:build": "stellar contract build",
+    "contract:deploy": "node scripts/deploy-stellar.mjs",
+    "export:frontend": "node scripts/export-frontend-config.mjs",
+    "build:frontend": "npm run export:frontend && npm --workspace frontend run build",
+    "build": "npm run contract:build && npm run export:frontend && npm --workspace frontend run build",
+    "lint": "npm --workspace frontend run lint",
+    "deploy:frontend": "npx vercel deploy --prod --yes"
+  },
+  "devDependencies": {
+    "dotenv": "^16.4.5"
+  }
+}

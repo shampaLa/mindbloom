@@ -1,0 +1,15 @@
+.git/
+.vercel/
+node_modules/
+frontend/node_modules/
+target/
+frontend/dist/
+coverage/
+cache/
+artifacts/
+assets/
+demovideo.mp4
+screenrecord.mp4
+UI.png
+test.png
+test/
