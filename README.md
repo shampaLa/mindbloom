@@ -14,6 +14,8 @@ MindBloom focuses on one Soroban contract and a polished React frontend:
 - Public contract activity feed powered by Soroban RPC `getEvents`
 - Responsive interface optimized for desktop and mobile
 
+### Live app: `https://mindbloom-ledger-frontend.vercel.app`
+
 ## Screenshots And Demo Assets
 
 ### MVP Video
@@ -77,7 +79,6 @@ Emitted events:
 - Live contract: `https://lab.stellar.org/r/testnet/contract/CAE7XU2J57CXVFMU3PMYJWP6GSZI32TQZREOJPA7XT5H7D5YMT6HCQDM`
 - WASM upload transaction: `652bb0756016d3d0de0a5060547c62478b1ab432dc925e4fe01495ba73b6c774`
 - Contract deployment transaction: `646c87308064e4c04e17bf5b568f941cf65de41ab68f058b40af0ec017e4e8cd`
-- Live app: `https://mindbloom-ledger-frontend.vercel.app`
 - Deployment record: [deployments/testnet.json](./deployments/testnet.json)
 
 ## Local Setup
