@@ -16,6 +16,19 @@ MindBloom focuses on one Soroban contract and a polished React frontend:
 
 ### Live app: `https://mindbloom-ledger-frontend.vercel.app`
 
+## Deployment Details
+
+- Network: `Stellar Testnet`
+- Contract alias: `mind_bloom`
+- Deployer wallet: `GCTPOHV6SFHW36B45KHJBWNDUJ3N4AUJYEEDZX75MX3WLHLUYA6TR7YQ`
+- CLI identity: `shampaLa`
+- Contract ID: `CA65JTALTWIRVFHU5VM3M33EL5INJIPX6W3CDFAORR7EAWR6MUOWPRTN`
+- Live contract: `https://lab.stellar.org/r/testnet/contract/CA65JTALTWIRVFHU5VM3M33EL5INJIPX6W3CDFAORR7EAWR6MUOWPRTN`
+- Contract deployment transaction: `e1e1fdd78b995ce47e4d95b66b2c15c8e875b0e6dcd3456b37ec82a897a00560`
+- Live app: `https://mindbloom-ledger-frontend.vercel.app`
+- Deployment record: [deployments/testnet.json](./deployments/testnet.json)
+
+
 ## Screenshots And Demo Assets
 
 ### MVP Video
@@ -71,17 +84,6 @@ Emitted events:
 - React Query for cached reads, refreshes, and activity polling
 - Public event feed that remains useful before wallet connection
 
-## Deployment Details
-
-- Network: `Stellar Testnet`
-- Contract alias: `mind_bloom`
-- Deployer wallet: `GCTPOHV6SFHW36B45KHJBWNDUJ3N4AUJYEEDZX75MX3WLHLUYA6TR7YQ`
-- CLI identity: `shampaLa`
-- Contract ID: `CA65JTALTWIRVFHU5VM3M33EL5INJIPX6W3CDFAORR7EAWR6MUOWPRTN`
-- Live contract: `https://lab.stellar.org/r/testnet/contract/CA65JTALTWIRVFHU5VM3M33EL5INJIPX6W3CDFAORR7EAWR6MUOWPRTN`
-- Contract deployment transaction: `e1e1fdd78b995ce47e4d95b66b2c15c8e875b0e6dcd3456b37ec82a897a00560`
-- Live app: `https://mindbloom-ledger-frontend.vercel.app`
-- Deployment record: [deployments/testnet.json](./deployments/testnet.json)
 
 ## Local Setup
 
