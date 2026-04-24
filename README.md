@@ -14,6 +14,8 @@ MindBloom focuses on one Soroban contract and a polished React frontend:
 - Public contract activity feed powered by Soroban RPC `getEvents`
 - Responsive interface optimized for desktop and mobile
 
+### Live app: `https://mindbloom-ledger-frontend.vercel.app`
+
 ## Screenshots And Demo Assets
 
 ### MVP Video
