@@ -73,10 +73,11 @@ Emitted events:
 
 - Network: `Stellar Testnet`
 - Contract alias: `mind_bloom`
-- Contract ID: `CAE7XU2J57CXVFMU3PMYJWP6GSZI32TQZREOJPA7XT5H7D5YMT6HCQDM`
-- Live contract: `https://lab.stellar.org/r/testnet/contract/CAE7XU2J57CXVFMU3PMYJWP6GSZI32TQZREOJPA7XT5H7D5YMT6HCQDM`
-- WASM upload transaction: `652bb0756016d3d0de0a5060547c62478b1ab432dc925e4fe01495ba73b6c774`
-- Contract deployment transaction: `646c87308064e4c04e17bf5b568f941cf65de41ab68f058b40af0ec017e4e8cd`
+- Deployer wallet: `GCTPOHV6SFHW36B45KHJBWNDUJ3N4AUJYEEDZX75MX3WLHLUYA6TR7YQ`
+- CLI identity: `shampaLa`
+- Contract ID: `CA65JTALTWIRVFHU5VM3M33EL5INJIPX6W3CDFAORR7EAWR6MUOWPRTN`
+- Live contract: `https://lab.stellar.org/r/testnet/contract/CA65JTALTWIRVFHU5VM3M33EL5INJIPX6W3CDFAORR7EAWR6MUOWPRTN`
+- Contract deployment transaction: `e1e1fdd78b995ce47e4d95b66b2c15c8e875b0e6dcd3456b37ec82a897a00560`
 - Live app: `https://mindbloom-ledger-frontend.vercel.app`
 - Deployment record: [deployments/testnet.json](./deployments/testnet.json)
 
@@ -93,12 +94,12 @@ npm install
 Copy `.env.example` to `.env`:
 
 ```env
-STELLAR_ACCOUNT=alice
+STELLAR_ACCOUNT=shampaLa
 STELLAR_NETWORK=testnet
 STELLAR_CONTRACT_ALIAS=mind_bloom
 VITE_STELLAR_RPC_URL=https://soroban-testnet.stellar.org
 VITE_STELLAR_NETWORK_PASSPHRASE=Test SDF Network ; September 2015
-VITE_CONTRACT_ID=CAE7XU2J57CXVFMU3PMYJWP6GSZI32TQZREOJPA7XT5H7D5YMT6HCQDM
+VITE_CONTRACT_ID=CA65JTALTWIRVFHU5VM3M33EL5INJIPX6W3CDFAORR7EAWR6MUOWPRTN
 ```
 
 ### 3. Start the frontend
@@ -139,9 +140,9 @@ This writes a fresh deployment record to `deployments/testnet.json`.
 
 Current deployed values:
 
-- Contract: `CAE7XU2J57CXVFMU3PMYJWP6GSZI32TQZREOJPA7XT5H7D5YMT6HCQDM`
-- Upload tx: `652bb0756016d3d0de0a5060547c62478b1ab432dc925e4fe01495ba73b6c774`
-- Deploy tx: `646c87308064e4c04e17bf5b568f941cf65de41ab68f058b40af0ec017e4e8cd`
+- Deployer wallet: `GCTPOHV6SFHW36B45KHJBWNDUJ3N4AUJYEEDZX75MX3WLHLUYA6TR7YQ`
+- Contract: `CA65JTALTWIRVFHU5VM3M33EL5INJIPX6W3CDFAORR7EAWR6MUOWPRTN`
+- Deploy tx: `e1e1fdd78b995ce47e4d95b66b2c15c8e875b0e6dcd3456b37ec82a897a00560`
 
 ### Export frontend contract config
 
@@ -180,7 +181,7 @@ Recommended values:
 ```env
 VITE_STELLAR_RPC_URL=https://soroban-testnet.stellar.org
 VITE_STELLAR_NETWORK_PASSPHRASE=Test SDF Network ; September 2015
-VITE_CONTRACT_ID=CAE7XU2J57CXVFMU3PMYJWP6GSZI32TQZREOJPA7XT5H7D5YMT6HCQDM
+VITE_CONTRACT_ID=CA65JTALTWIRVFHU5VM3M33EL5INJIPX6W3CDFAORR7EAWR6MUOWPRTN
 ```
 
 Current live deployment:

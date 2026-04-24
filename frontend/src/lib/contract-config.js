@@ -1,8 +1,8 @@
 export const mindBloomConfig = {
   "contractName": "MindBloom",
-  "fallbackContractId": "CAE7XU2J57CXVFMU3PMYJWP6GSZI32TQZREOJPA7XT5H7D5YMT6HCQDM",
+  "fallbackContractId": "CA65JTALTWIRVFHU5VM3M33EL5INJIPX6W3CDFAORR7EAWR6MUOWPRTN",
   "fallbackNetwork": "testnet",
-  "generatedAt": "2026-04-23T12:46:02.0475665Z",
+  "generatedAt": "2026-04-24T15:48:26.504Z",
   "limits": {
     "minSessionMinutes": 5,
     "maxSessionMinutes": 480,
