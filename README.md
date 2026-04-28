@@ -1,5 +1,7 @@
 # MindBloom
 
+[![CI/CD](https://github.com/shampaLa/mindbloom/actions/workflows/ci.yml/badge.svg)](https://github.com/shampaLa/mindbloom/actions/workflows/ci.yml)
+
 MindBloom is a Stellar Soroban mini-dApp for mindfulness and meditation tracking on-chain. People connect a Freighter wallet, create a public wellness profile, set a weekly mindfulness goal in minutes, log meditation or breathing sessions, build a calm streak across days, and follow a live activity feed sourced from recent Soroban contract events.
 
 ## Overview
