@@ -18,6 +18,16 @@ MindBloom focuses on one Soroban contract and a polished React frontend:
 
 ### Live app: `https://mindbloom-ledger-frontend.vercel.app`
 
+## GitHub CI/CD
+
+CI/CD is configured with GitHub Actions.
+
+- Workflow file: [.github/workflows/ci.yml](./.github/workflows/ci.yml)
+- Live workflow runs: `https://github.com/shampaLa/mindbloom/actions/workflows/ci.yml`
+- Runs on: pushes to `main`, pull requests, and manual dispatch
+- Checks included: Rust/Soroban contract tests, contract wasm build, frontend lint, frontend production build
+- Deployment: deploys frontend to Vercel on `main` when Vercel secrets are configured
+
 ## Deployment Details
 
 - Network: `Stellar Testnet`
@@ -196,23 +206,6 @@ Current live deployment:
 
 - App URL: `https://mindbloom-ledger-frontend.vercel.app`
 - Inspect URL: `https://vercel.com/deep-sahas-projects-5b5ba27c/mindbloom-ledger-frontend/3VbpXssWdtGqGN8MxjZ3Cq659vid`
-
-## GitHub CI/CD
-
-Workflow file: [.github/workflows/ci.yml](./.github/workflows/ci.yml)
-
-The GitHub Actions workflow runs on pushes to `main`, pull requests, and manual dispatches. It verifies the contract and frontend by running:
-
-- Rust/Soroban contract tests
-- Contract wasm release build
-- Frontend linting
-- Frontend production build
-
-On pushes to `main`, the workflow also deploys the frontend to Vercel when these repository secrets are configured:
-
-- `VERCEL_TOKEN`
-- `VERCEL_ORG_ID`
-- `VERCEL_PROJECT_ID`
 
 ## Verification Steps
 
