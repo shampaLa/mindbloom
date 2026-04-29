@@ -72,6 +72,10 @@ Workflow jobs:
 
 ![MindBloom CI CD Jobs](./cicd%202.png)
 
+Contract test output:
+
+![MindBloom Contract Test Output](./test.png)
+
 
 ## Architecture
 
