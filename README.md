@@ -1,6 +1,6 @@
 # MindBloom
 
-[![CI/CD](https://github.com/shampaLa/mindbloom/actions/workflows/ci.yml/badge.svg)](https://github.com/shampaLa/mindbloom/actions/workflows/ci.yml)
+[![GitHub CI/CD](https://github.com/shampaLa/mindbloom/actions/workflows/ci-cd.yml/badge.svg)](https://github.com/shampaLa/mindbloom/actions/workflows/ci-cd.yml)
 
 MindBloom is a Stellar Soroban mini-dApp for mindfulness and meditation tracking on-chain. People connect a Freighter wallet, create a public wellness profile, set a weekly mindfulness goal in minutes, log meditation or breathing sessions, build a calm streak across days, and follow a live activity feed sourced from recent Soroban contract events.
 
@@ -20,10 +20,10 @@ MindBloom focuses on one Soroban contract and a polished React frontend:
 
 ## GitHub CI/CD
 
-CI/CD is configured with GitHub Actions.
+CI/CD is configured with a GitHub Actions workflow in this repository.
 
-- Workflow file: [.github/workflows/ci.yml](./.github/workflows/ci.yml)
-- Live workflow runs: `https://github.com/shampaLa/mindbloom/actions/workflows/ci.yml`
+- Workflow file: [.github/workflows/ci-cd.yml](./.github/workflows/ci-cd.yml)
+- Live workflow runs: `https://github.com/shampaLa/mindbloom/actions/workflows/ci-cd.yml`
 - Runs on: pushes to `main`, pull requests, and manual dispatch
 - Checks included: Rust/Soroban contract tests, contract wasm build, frontend lint, frontend production build
 - Deployment: deploys frontend to Vercel on `main` when Vercel secrets are configured
