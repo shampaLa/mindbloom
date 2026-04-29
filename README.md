@@ -64,6 +64,14 @@ Workflow overview:
 
 ![MindBloom CI CD Screenshot](./ci%20cd%20ss.png)
 
+Workflow run details:
+
+![MindBloom CI CD Run Details](./cicd%201.png)
+
+Workflow jobs:
+
+![MindBloom CI CD Jobs](./cicd%202.png)
+
 
 ## Architecture
 
